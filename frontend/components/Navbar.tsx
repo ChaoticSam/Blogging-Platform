@@ -1,9 +1,10 @@
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import { isAuthenticated } from '../utils/auth';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faSignInAlt, faUserPlus, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 const Navbar = () => {
   const [isAuth, setIsAuth] = useState(false); // state to track if user is authenticated
