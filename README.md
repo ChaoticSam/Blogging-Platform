@@ -29,7 +29,7 @@ Install dependencies for both frontend and backend:
 cd frontend
 npm install
 • Open other terminal
-cd ../backend
+cd backend
 npm install
 ```
 Set up environment variables:
