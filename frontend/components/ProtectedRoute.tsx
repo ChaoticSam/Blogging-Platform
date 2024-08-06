@@ -17,7 +17,7 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
     }, [router]);
 
     if (loading) {
-        return <p>Loading...</p>; // You can replace this with a proper loading spinner or component
+        return <p>Loading...</p>;
     }
 
     return <>{children}</>;
